@@ -1,3 +1,5 @@
+/* 스프링 시큐리티 설정 파일 */
+
 package com.mysite.sbb;
 
 import org.springframework.context.annotation.Bean;

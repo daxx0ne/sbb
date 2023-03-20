@@ -1,3 +1,5 @@
+/* 회원 가입을 위한 폼 클래스 */
+
 package com.mysite.sbb.user;
 
 import jakarta.validation.constraints.Email;

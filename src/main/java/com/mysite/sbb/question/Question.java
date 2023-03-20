@@ -1,3 +1,5 @@
+/* Question 엔티티 */
+
 package com.mysite.sbb.question;
 
 import java.time.LocalDateTime;

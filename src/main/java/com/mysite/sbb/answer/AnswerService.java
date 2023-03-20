@@ -1,3 +1,5 @@
+/* 답변 저장 서비스 */
+
 package com.mysite.sbb.answer;
 
 import com.mysite.sbb.question.Question;

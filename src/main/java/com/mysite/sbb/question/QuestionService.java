@@ -1,3 +1,5 @@
+/* 질문 저장 서비스 */
+
 package com.mysite.sbb.question;
 
 import java.util.List;

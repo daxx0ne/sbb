@@ -1,7 +1,7 @@
+/* URL에 대한 매핑이 있는 컨트롤러가 필요 */
+
 package com.mysite.sbb.question;
 import com.mysite.sbb.answer.AnswerForm;
-
-import java.util.List;
 
 import jakarta.validation.Valid;
 

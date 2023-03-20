@@ -1,3 +1,5 @@
+/* Question 테이블에 데이터를 저장하거나 조회, 페이징 구현 */
+
 package com.mysite.sbb.question;
 
 import java.util.List;

@@ -1,3 +1,5 @@
+/* 화면에서 전달되는 입력 값을 검증하기 위한 폼 클래스 */
+
 package com.mysite.sbb.question;
 
 import jakarta.validation.constraints.NotEmpty;

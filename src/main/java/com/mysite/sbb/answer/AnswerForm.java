@@ -1,3 +1,5 @@
+/* 답변을 등록할 때 사용할 폼 클래스 */
+
 package com.mysite.sbb.answer;
 
 import jakarta.validation.constraints.NotEmpty;

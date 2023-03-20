@@ -1,3 +1,5 @@
+/* User 리포지터리를 사용하여 User 데이터를 생성 및 암호화 */
+
 package com.mysite.sbb.user;
 
 import org.springframework.security.crypto.password.PasswordEncoder;

@@ -1,3 +1,5 @@
+/* 회원가입을 위한 User 컨트롤러 */
+
 package com.mysite.sbb.user;
 
 import jakarta.validation.Valid;

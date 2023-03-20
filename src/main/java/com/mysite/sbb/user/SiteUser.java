@@ -1,3 +1,5 @@
+/* 사용자를 관리할 SiteUser 엔티티 */
+
 package com.mysite.sbb.user;
 
 import jakarta.persistence.Column;

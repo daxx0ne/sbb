@@ -1,3 +1,5 @@
+/* id 값에 해당하는 Question 데이터가 없을 경우에는 DataNotFoundException을 발생 */
+
 package com.mysite.sbb;
 
 import org.springframework.http.HttpStatus;
