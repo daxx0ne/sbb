@@ -2,9 +2,12 @@ package com.mysite.sbb.question;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.ArrayList;
+import java.util.List;
 
 import com.mysite.sbb.DataNotFoundException;
 
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -34,7 +37,9 @@ public class QuestionService {
     }
 
     public Page<Question> getList(int page) {
-        Pageable pageable = PageRequest.of(page, 10);
+        List<Sort.Order> sorts = new ArrayList<>();
+        sorts.add(Sort.Order.desc("createDate"));
+        Pageable pageable = PageRequest.of(page, 10, Sort.by(sorts));
         return this.questionRepository.findAll(pageable);
     }
 
