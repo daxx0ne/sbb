@@ -5,7 +5,6 @@ package com.mysite.sbb.question;
 import java.util.List;
 import java.util.Optional;
 import java.util.ArrayList;
-import java.util.List;
 
 import com.mysite.sbb.DataNotFoundException;
 import com.mysite.sbb.user.SiteUser;
